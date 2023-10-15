@@ -37,7 +37,7 @@ margin-left: 20px;
 
   height: 160px;
   width: 100vw;
-  background-color: cyan;
+  background-color:rgb(247, 243, 243);
 }
 
 /* .i2{
@@ -48,5 +48,10 @@ margin-left: 20px;
   float: left;
 }
 .names{
-  float: left;
+  display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap;
+}
+.i3{
+  margin-right: 30px;
 }
